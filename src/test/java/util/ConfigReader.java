@@ -35,7 +35,6 @@ public class ConfigReader {
 
             this.url = prop.getProperty("url_home");
             this.chromeDriverPath = prop.getProperty("chrome_driver_path");
-
         } catch (IOException ex) {
             ex.printStackTrace();
         } finally {
