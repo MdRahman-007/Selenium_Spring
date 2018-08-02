@@ -34,7 +34,7 @@ public class ConfigReader {
             // get the property value and print it out
 
             this.url = prop.getProperty("url_home");
-            this.chromeDriverPath = prop.getProperty("chrome_driver_path");
+            this.chromeDriverPath = prop.getProperty("/Users/mdrahman/Downloads/Selenium/Chrome/chromedriver");
 
         } catch (IOException ex) {
             ex.printStackTrace();
