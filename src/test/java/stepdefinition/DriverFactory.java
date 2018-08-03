@@ -21,7 +21,7 @@ public class DriverFactory {
 
             ConfigReader configReader = new ConfigReader();
             System.setProperty("webdriver.chrome.driver",
-                    configReader.getChromeDriverPath());
+                    "/Users/mdrahman/.jenkins/war/Chrome/chromedriver");
             driver = new ChromeDriver();
 
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
